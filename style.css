@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans|Permanent+Marker&display=swap');
+*{
+    margin:0;
+    padding:0;
+    font-size: 1em;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family:'Open Sans', sans-serif;
+}
+div{
+    border:1px solid;
+}
+body{
+    background-image: url(imagenes/fondo.jpg);
+    background-size: cover;
+}
+header{
+    height: 100px;
+    text-align: center;
+}
+h1{
+    font-size: 3em;
+    padding-top:20px;
+    font-family:'Permanent Marker', cursive;
+}
+.project{
+    position: relative;
+    left: 20%;
+}
+.projectName, .taskButton{
+    text-align: center;
+}
+.cajaTask{
+    width:300px;
+    height: 300px;
+    display:flex;
+    flex-wrap: wrap;
+}
+.task{
+    width: 280px;
+    border-radius: 5px;
+    margin:10px;
+    padding: 10px;
+    background-color:#b4d6f3;
+    box-shadow:0px 0px 10px 5px #264b7c;
+}
+.task div, .task input{
+    margin:5px;
+}
+
+
+
+
