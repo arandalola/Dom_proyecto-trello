@@ -7,9 +7,6 @@
     text-decoration: none;
     font-family:'Open Sans', sans-serif;
 }
-div{
-    border:1px solid;
-}
 body{
     background-image: url(imagenes/fondo.jpg);
     background-size: cover;
@@ -19,22 +16,39 @@ header{
     text-align: center;
 }
 h1{
-    font-size: 3em;
+    color:white;
+    font-size: 5em;
     padding-top:20px;
     font-family:'Permanent Marker', cursive;
+    text-shadow: 2px 2px 8px #264b7c;
 }
 .project{
-    position: relative;
-    left: 20%;
+    all:unset;
+    font-size: 3em;
+    padding-top: 20px;
+    font-family: 'Permanent Marker', cursive;
+    cursor:pointer;
+    color:#264b7c;
+    text-shadow: 2px 2px 8px #fff;
 }
 .projectName, .taskButton{
-    text-align: center;
+    all:unset;
+    font-size: 2em;
+    padding-top: 20px;
+    font-family: 'Permanent Marker', cursive;
+    cursor:pointer;
+    color:#fff;
+}
+.projectName{
+    text-decoration: underline;
+}
+.principal{
+    margin:30px;
 }
 .cajaTask{
-    width:300px;
-    height: 300px;
     display:flex;
     flex-wrap: wrap;
+    justify-content: space-evenly;
 }
 .task{
     width: 280px;
@@ -47,6 +61,7 @@ h1{
 .task div, .task input{
     margin:5px;
 }
+
 
 
 

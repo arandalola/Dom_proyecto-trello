@@ -30,16 +30,6 @@ document.addEventListener('DOMContentLoaded', ()=>{
             date.setAttribute("type", "date");
             task.appendChild(date);
 
-            let memberName = document.createElement('div');
-            memberName.innerText='Members';
-            memberName.setAttribute("class", "memberName");
-            task.appendChild(memberName);
-
-            let member = document.createElement('input');
-            member.setAttribute("class", "member");
-            member.setAttribute("type", "file");
-            memberName.appendChild(member);
-
             let detailsName = document.createElement('div');
             detailsName.innerText = 'Details';
             detailsName.setAttribute("class", "detailsName");
